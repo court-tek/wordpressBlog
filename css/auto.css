@@ -1,0 +1,37 @@
+@import 'reset.css';
+@import 'grid12.css';
+@import 'content.css';
+
+html,
+body {
+  color: #333;
+  margin: 0;
+  background: #e6e6e6;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  border-bottom: 4px #000 solid;
+}
+
+.sub-header {
+  background: purple;
+  margin-bottom: 10px;
+}
+
+.customContainer {
+  min-height: calc(100vh - 70px);
+}
+
+footer {
+  color: #fff;
+  height: 50px;
+  background: red;
+}
