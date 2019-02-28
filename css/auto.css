@@ -13,17 +13,36 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-header {
-  background: #333;
-  padding: 20px;
+#topImg {
+  display: grid;
   color: #fff;
-  text-align: center;
-  border-bottom: 4px #000 solid;
+  height: 454px;
+  grid-template-columns: 92% 8%;
 }
 
-.sub-header {
-  background: purple;
-  margin-bottom: 10px;
+#topImg .title-area {
+  background: #333;
+}
+
+#topImg .social-media {
+  position: relative;
+  background: #fff;
+}
+
+#topImg .social-media .rotate-this {
+  width: 300px;
+  position: absolute;
+  top: 250px;
+  left: -110px;
+  transform: rotate(-90deg);
+}
+
+#topImg .social-media .rotate-this > a {
+  color: grey;
+  font-weight: 400;
+  margin-left: 45px;
+  text-align: center;
+  font-size: 11px;
 }
 
 .customContainer {
