@@ -17,16 +17,47 @@ body {
   display: grid;
   color: #fff;
   height: 454px;
-  grid-template-columns: 92% 8%;
+  grid-template-columns: 94% 6%;
 }
 
 #topImg .title-area {
-  background: #333;
+  position: relative;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0) 00, #000 100%);
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0) 0px, rgb(0, 0, 0) 100%);
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, -0.6) 0, #000 100%), url("https://raw.githubusercontent.com/court-tek/myWebFiles/master/caribFood.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#topImg .menuu-area ul li {
+  display: inline-block;
+}
+
+#topImg .title-area h1 {
+  padding: 80px 0 30px;
+  text-align: center;
+  font-size: 4rem;
 }
 
 #topImg .social-media {
   position: relative;
   background: #fff;
+}
+
+#topImg .social-media .search-area {
+  position: relative;
+  /* text-align: center; */
+  color: #111;
+  height: 70px;
+  border-radius: 0 0 10px 10px;
+  width: 81px;
+  background: orange;
+}
+
+#topImg .social-media .search-area .fas {
+  position: absolute;
+  top: 26px;
+  right: 31px;
 }
 
 #topImg .social-media .rotate-this {
